@@ -97,9 +97,14 @@ body{
 	margin-top: 10px;
 	margin-left: 15px;
 	border: 1px solid black;
-	/*display: flex;
-	flex-flow: row wrap;*/
+	display: flex;
+	flex-flow: row wrap;
 
+}
+.tempt{
+	width:300px;
+	height: 200px;
+    overflow: auto;
 }
 .third-item-num{
 	width: 29px;
