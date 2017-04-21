@@ -39,7 +39,8 @@
        /********************3******************/
        $(".third-add").click(function(){
          var v = '<div class="third-item"><div class="third-item-num">3</div><div class="third-item-content"></div><div class="third-item-delete">Delete</div></div>'
-        $(".third-item").eq(-1).after(v);
+        //$(".third-item").eq(-1).after(v);
+        $(".tempt").append(v);
         var len=$(".third-item").length;
         for(var i=0; i<len;++i)
         {
