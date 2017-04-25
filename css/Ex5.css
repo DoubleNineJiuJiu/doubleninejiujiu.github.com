@@ -1,0 +1,430 @@
+body{
+	margin-left: 200px;
+}
+.ui-head{
+	width: 685px;    
+    height: 25px;
+    border-bottom: 4px solid #248ec8;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.ui-head-routine{
+ width: 80px;
+ height: 25px;
+ border-top-left-radius:4px;
+ border-top-right-radius:4px;
+ background-color: #248ec8;
+ color: white;
+ text-align: center;
+ font-size: 15px;
+ font-weight: bold;
+ 
+}
+
+.ui-head-morning{
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border-radius:4px;
+	background-color: #fd6710;
+	color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.ui-total{
+	width: 683px;
+	height: 50px;
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+	background-color: #fcfcfc;
+}
+.ui-total-up{
+	width: 685px;
+	height: 25px;
+	display: flex;
+    flex-flow: row wrap;
+
+}
+.ui-total-up-start{
+     width: 100px;
+	 height: 25px;
+	 font-size: 13px;
+	 color: #d50000;
+	 margin-left: 10px;
+}
+.ui-total-up-start:before{
+     content: "08:43";
+	 font-weight: 900;
+	 font-size: 14px;
+	 color: #d50000;
+}
+
+.ui-total-up-end{
+     width: 100px;
+	 height: 25px;
+	 margin-left: -25px;
+	 font-size: 13px;
+	 color: #d50000;
+}
+.ui-total-up-end:before{
+     content: "09:43";
+	 font-weight: 900;
+	 font-size: 14px;
+	 color: #d50000;
+}
+
+.ui-total-up-money{
+
+    width: 100px;
+    height: 25px;
+	color: #d50000;
+	font-weight: 600;
+	font-size: 13px;
+	margin-left: -10px;
+    
+}
+.ui-total-up-money:before{
+
+	 content: "総額 ";
+	 font-weight: 400;
+	 font-size: 13px;
+     color: black;
+}
+.ui-total-down{
+	width: 865px;
+	height: 25px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.ui-total-down-alltime{
+	width: 200px;
+	height: 25px;
+	margin-left: 10px;
+	color: #d50000;
+	font-weight: 600;
+	font-size: 13px;
+}
+.ui-total-down-alltime:before{
+	content: "所要时间";
+    font-weight: 400;
+	font-size: 13px;
+    color: black;
+    margin-right: 5px;
+}
+.ui-total-down-goingtime{
+	width:110px;
+	height: 25px;
+	margin-left: -50px;
+	font-weight: 600;
+	font-size: 13px;
+    color: black;
+}
+.ui-total-down-goingtime:before{
+	content: "乘车时间";
+	font-weight: 400;
+	font-size: 13px;
+    color: black;
+    margin-right: 10px;
+}
+.ui-total-down-exchange{
+	width:100px;
+	height: 25px;
+	font-weight: 600;
+	font-size: 13px;
+    color: #d50000;
+    margin-left: 20px;
+}
+.ui-total-down-exchange:before{
+	content: "乗換";
+	font-weight: 400;
+	font-size: 13px;
+    color: black;
+    margin-right: 10px;
+}
+.ui-total-down-distance{
+	width:150px;
+	height: 25px;
+	font-weight: 600;
+	font-size: 13px;
+   
+}
+.ui-total-down-distance:before{
+	content: "距离";
+	font-weight: 400;
+	font-size: 13px;
+    color: black;
+    margin-right: 10px;
+}
+.ui-blank{
+	width: 683px;
+	height: 25px;
+	border: 1px solid #bbbbbb;
+	display:flex;
+	justify-content: flex-end;
+	align-items:center;/*垂直居中*/
+	background-color: #fffbde;
+}
+.ui-blank a{
+	font-size: 13px;
+	margin-left:5px;
+	margin-right: 5px;
+	color: #212ff3;
+}
+.ui-content{
+	width: 685px;
+	height: 500px;
+	margin-top: 8px;
+	background-color: white;
+}
+.ui-content-row1{
+	width: 684px;
+	height: 17px;
+	border-bottom: 1px solid white;
+	background-color: #cedce8;
+	display: flex;
+	flex-flow: row wrap;
+    line-height: 17px;
+	font-size:13px;
+	text-align: center;
+	color: #607a90;
+}
+.ui-content-row1-box1{
+	width: 380px;
+	height: 17px;
+	border-right: 1px solid white;
+}
+.ui-content-row1-box2{
+	width: 74px;
+	height: 17px;
+	border-right: 1px solid white;
+}
+.ui-content-row1-box3{
+	width: 74px;
+	height: 17px;
+	border-right: 1px solid white;
+}
+.ui-content-row1-box4{
+	width: 74px;
+	height: 17px;
+	border-right: 1px solid white;
+}
+.ui-content-row1-box5{
+	width: 77px;
+	height: 17px;
+}
+
+.ui-content-row2{
+	width: 683px;
+	height: 49px;
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+	border-bottom: 1px solid #bbbbbb;
+	background-color: #f2f2f2;
+
+	display: flex;
+	flex-flow: row wrap;
+}
+.ui-content-row2-box1{
+	width: 105px;
+	height: 49px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items:center;
+}
+.ui-content-row2-box2{
+	width: 100px;
+	height: 49px;
+	line-height: 49px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.ui-content-row2-box3{
+	width: 74px;
+	height: 49px;
+	margin-left: 180px;
+	text-align: center;
+	font-size: 13px;
+	display:flex;
+	flex-flow: row wrap;
+	align-items:center;/*垂直居中*/
+}
+.ui-content-row2-box4{
+	width:160px;
+	height: 49px;
+	margin-left: 50px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items:center;
+}
+.ui-content-row2-box4 a{
+	font-size: 13px;
+	margin-left: 3px;
+	color: #212ff3;
+}
+.ui-content-row3
+{
+	width: 685px;
+	height: 40px;
+	border-bottom: 1px solid #bbbbbb;
+	display: flex;
+	flex-flow: row wrap;
+	align-items:center;
+}
+.ui-content-row3-box1{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 20px;
+}
+.ui-content-row3-box1-up{
+	width: 100px;
+	height: 20px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.ui-content-row3-box1-down{
+	width: 100px;
+	height: 20px;
+	font-size: 13px;
+}
+.ui-content-row3-box2{
+	width:2px;
+	height: 35px;
+	margin-left: -5px;
+	background: linear-gradient(#58a 45%, #fff 45%); 
+    background-size: 100% 12px;
+    border: 2px solid #58a;
+}
+.ui-content-row3-box3{
+	width: 50px;
+	height: 40px;
+	margin-left: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items:center;
+	
+}
+.ui-content-row3-box4 a{
+	width:210px;
+	height: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items:center;
+	font-size: 13px;
+	color: #0069A3;
+}
+.ui-content-row3-box5{
+	width: 74px;
+	height: 40px;
+	border-left: 1px solid #bbbbbb;
+}
+.ui-content-row3-box6{
+	width: 74px;
+	height: 40px;
+	border-left: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+}
+.ui-content-row3-box7{
+	width: 74px;
+	height: 40px;
+	border-left: 1px solid #bbbbbb;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+}
+.ui-content-row3-box8{
+	width: 74px;
+	height: 40px;
+	border-left: 1px solid #bbbbbb;
+	font-size: 15px;
+	line-height: 40px;
+	text-align: center;
+}
+.ui-content-row4{
+	width: 683px;
+	height: 49px;
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+	border-bottom: 1px solid #bbbbbb;
+	background-color: #f2f2f2;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.ui-content-row4-box1{
+	width: 100px;
+	height: 49px;
+	text-align: center;
+	line-height: 49px;
+	font-size: 13px;
+}
+.ui-content-row4-box2{
+	width: 6px;
+	height: 6px;
+	margin-left:-8px;
+	margin-top: 20px;
+	border: 2px solid #0096f9;
+	background-color: white;
+}
+.ui-content-row4-box3{
+	text-align: center;
+	line-height: 49px;
+	font-size: 17px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.ui-content-row4-box4{
+	width: 74px;
+	height: 49px;
+	margin-left: 210px;
+	text-align: center;
+	font-size: 13px;
+	display:flex;
+	flex-flow: row wrap;
+	align-items:center;
+}
+.content-row4-box4-item{
+	width: 74px;
+	height: 24px;
+}
+.ui-content-row4-box5{
+	width:160px;
+	height: 49px;
+	margin-left: 60px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items:center;
+}
+.ui-content-row4-box5 a{
+	font-size: 13px;
+	margin-left: 3px;
+	color: #212ff3;
+}
+.ui-content-row5-box3{
+    width: 50px;
+	height: 40px;
+	margin-left: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items:center;
+}
+.ui-content-row5-box4 a{
+	width:210px;
+	height: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items:center;
+	font-size: 13px;
+	color: #0069A3;
+}
