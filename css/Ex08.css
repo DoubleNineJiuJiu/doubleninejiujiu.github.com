@@ -1,4 +1,15 @@
 #myMap{
-	width: 500px;
+	float:left;
+	width: 1000px;
+	height: 800px;
+}
+
+#map{
+	float: left;
+	width: 200px;
 	height: 500px;
+}
+#HZNUmap{
+	width:800px;
+	height: 400px;
 }
