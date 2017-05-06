@@ -5,6 +5,7 @@ $(init)
     $("#building3").hide();
     $("#building4").hide();
     $("#building5").hide();
+    
   }
 var map = new BMap.Map("myMap");
 

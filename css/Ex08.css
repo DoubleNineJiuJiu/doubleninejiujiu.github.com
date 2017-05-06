@@ -24,22 +24,27 @@
 	height: 600px;
 }
 #building1{
+	display: none;
 	width: 300px;
 	height: 200px;
 }
 #building2{
+	display: none;
 	width: 300px;
 	height: 100px;
 }
 #building3{
+	display: none;
 	width: 300px;
 	height: 100px;
 }
 #building4{
+	display: none;
 	width: 300px;
 	height: 100px;
 }
 #building5{
+	display: none;
 	width: 300px;
 	height: 100px;
 }
