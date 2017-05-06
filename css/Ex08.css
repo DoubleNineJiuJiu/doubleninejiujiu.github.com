@@ -1,15 +1,69 @@
 #myMap{
+	width: 1000px;
+	height: 800px;
+	margin: 50px;
+}
+#busMap{
 	float:left;
 	width: 1000px;
 	height: 800px;
+	margin: 50px;
 }
-
 #map{
 	float: left;
 	width: 200px;
 	height: 500px;
 }
+.name{
+	 clear: both;
+}
 #HZNUmap{
-	width:800px;
-	height: 400px;
+	margin-top: 20px;
+	margin-left: 50px;
+	width:900px;
+	height: 600px;
+}
+#building1{
+	width: 300px;
+	height: 200px;
+}
+#building2{
+	width: 300px;
+	height: 100px;
+}
+#building3{
+	width: 300px;
+	height: 100px;
+}
+#building4{
+	width: 300px;
+	height: 100px;
+}
+#building5{
+	width: 300px;
+	height: 100px;
+}
+.building1-allstars{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+}
+.building1-allstars-star{
+	color: orange;
+}
+.building1-comment{
+	float: left;
+	color: #e0d9cf;
+	font-size: 15px;
+}
+.building1-information{
+	float: left;
+	margin-left: 100px;
+	width: 60px;
+	height: 25px;
+	color: white;
+	font-size: 13px;
+	line-height: 25px;
+	text-align: center;
+	background-color: orange;
 }
